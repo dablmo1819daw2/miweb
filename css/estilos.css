@@ -1,0 +1,110 @@
+body {
+  margin: 10px;
+  padding:55px;
+  background: black;
+  font-family:inherit;
+  font-size: 19px;
+  color: white;
+}
+header {
+  margin: -65px -65px 10px -65px;
+  padding: -10px -10px 10px -10px;
+  height: 60px;
+  background:gray;
+}
+.header_element {
+  width:33%;
+  color: #ebeff3;
+  text-decoration: none;
+  padding: 18px 0px;
+  text-align: center;
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float:left;
+  border: 1px solid #07033a;
+}
+h1 {
+  text-align: center;
+  font-family:'Arial', Times, serif;
+  font-size: 30px;
+  color: white;
+}
+h2 {
+  font-family:'Times New Roman', Times, serif;
+}
+#foto_vng {
+  float: right;
+  width: 350px;
+  padding: 10px;
+}
+figcaption {
+  text-align: justify;
+}
+#p_vng {
+  margin-left: 10px;
+  margin-right: 500px;
+  padding: 30px;
+  text-align: justify;
+}
+
+#p_slytherin {
+  margin-left: 370px;
+  margin-right: 50px;
+  text-align: justify;
+}
+#p_final {
+  margin-left: 40px;
+  margin-right: 50px;
+  text-align: justify;
+}
+#fotodni {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: right;
+  border: 10px solid #0a42a8;
+}
+#img_fotodni {
+  height: auto;
+  width: 100%;
+}
+#info_bernat {
+  margin: 0px 10px;
+  float: right;
+  padding: 10px;
+}
+.gradient_border {
+  width:100px;
+  border-left: 7px solid #07033a;
+  border-image: linear-gradient(#95f3f7, #250168) 30;
+  margin:0;
+  padding:0;
+  position:absolute;
+  left:77px;
+  z-index: -1;
+}
+.first_border {
+  top:270px;
+  height:100px;
+}
+.second_border {
+  top:518px;
+  height:61px;
+}
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+li {
+background: url('bullet.png') no-repeat left top;
+height: 54px;
+padding-left: 44px;
+padding-top: 3px;
+}
+#p_contacto {
+  text-align: center;
+  margin: 60px 300px;
+}
