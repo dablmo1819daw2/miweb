@@ -12,6 +12,16 @@ header {
   height: 60px;
   background:gray;
 }
+#red {
+  width: 190px;
+  height: 300px;
+  margin-left: 250px;
+}
+#foton{
+  width: 220px;
+  height: 300px;
+  margin-left: 250px;
+}
 .header_element {
   width:33%;
   color: #ebeff3;
@@ -19,62 +29,36 @@ header {
   padding: 18px 0px;
   text-align: center;
   font-size: 20px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:Arial, Helvetica, sans-serif;
   float:left;
-  border: 1px solid #07033a;
+  border: 1px solid white;
 }
 h1 {
-  text-align: center;
-  font-family:'Arial', Times, serif;
+  text-align: left;
+  font-family:Arial, Helvetica, sans-serif;
   font-size: 30px;
   color: white;
 }
 h2 {
-  font-family:'Times New Roman', Times, serif;
+  font-family:Arial, Helvetica, sans-serif;
 }
-#foto_vng {
-  float: right;
-  width: 350px;
-  padding: 10px;
+#foto {
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
 }
 figcaption {
   text-align: justify;
 }
-#p_vng {
-  margin-left: 10px;
-  margin-right: 500px;
-  padding: 30px;
-  text-align: justify;
+#sesiones {
+  text-align: left;
+}
+#resumen {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
 }
 
-#p_slytherin {
-  margin-left: 370px;
-  margin-right: 50px;
-  text-align: justify;
-}
-#p_final {
-  margin-left: 40px;
-  margin-right: 50px;
-  text-align: justify;
-}
-#fotodni {
-  position: relative;
-  width: 180px;
-  height: 180px;
-  overflow: hidden;
-  border-radius: 50%;
-  float: right;
-  border: 10px solid #0a42a8;
-}
-#img_fotodni {
-  height: auto;
-  width: 100%;
-}
-#info_bernat {
-  margin: 0px 10px;
-  float: right;
-  padding: 10px;
-}
 .gradient_border {
   width:100px;
   border-left: 7px solid #07033a;
@@ -98,13 +82,27 @@ list-style-type: none;
 padding: 0;
 margin: 0;
 }
-li {
-background: url('bullet.png') no-repeat left top;
-height: 54px;
-padding-left: 44px;
-padding-top: 3px;
+#informacion {
+  text-align: left;
+
 }
-#p_contacto {
-  text-align: center;
-  margin: 60px 300px;
+#logo_contacto{
+  margin-left: 550px;
+  width: 200px;
+  height: 200px;
+}
+#postu {
+  width: 220px;
+  height: 300px;
+  margin-left: 250px;
+}
+#textosesiones{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+}
+#avion {
+  width: 220px;
+  height: 300px;
+  margin-left: 250px;
 }
